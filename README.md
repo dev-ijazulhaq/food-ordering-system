@@ -1,10 +1,10 @@
 # Food-Ordering-System
-A scalable online food delivery system built with Laravel, React, and PostgreSQL using Domain-Driven Design (DDD), event-driven architecture, and real-time features.
-# 🍔 Food Delivery System (DDD Architecture)
+A scalable online food ordering and delivery system built with Laravel, React, and PostgreSQL using Domain-Driven Design (DDD), event-driven architecture, and real-time tracking.
+# 🍔 Food Ordering System
 
-A scalable and production-ready **online food delivery platform** inspired by systems like Uber Eats and DoorDash.
+A scalable and production-ready **online food ordering and delivery platform** inspired by real-world systems like Uber Eats and DoorDash.
 
-This project is designed to demonstrate **modern backend architecture**, including Domain-Driven Design (DDD), event-driven systems, and high-performance APIs.
+This project is designed to demonstrate **modern backend architecture, system design, and performance optimization**.
 
 ---
 
@@ -13,19 +13,19 @@ This project is designed to demonstrate **modern backend architecture**, includi
 ### Backend
 
 * Laravel (Modular Monolith Architecture)
-* PostgreSQL (Primary Database)
-* Redis (Caching & Queue)
-* Laravel Queues & Events
-* WebSockets (Real-time tracking)
+* PostgreSQL (Database)
+* Redis (Cache & Queue)
+* Laravel Events & Queues
+* WebSockets (Real-time updates)
 
 ### Frontend
 
-* React.js (Admin & Restaurant Dashboard)
+* React.js (Admin & Restaurant Dashboards)
 
 ### Mobile Applications
 
-* Customer App (Future)
-* Driver App (Future)
+* Customer App (Planned)
+* Driver App (Planned)
 
 ---
 
@@ -38,9 +38,11 @@ This project follows:
 * **Service + Repository Pattern**
 * **Event-Driven Architecture**
 
-### Core Domains:
+---
 
-* User Domain
+## 📦 Core Domains
+
+* User Domain (Customers, Drivers, Admin)
 * Restaurant Domain
 * Order Domain
 * Delivery Domain
@@ -49,59 +51,59 @@ This project follows:
 
 ---
 
-## 🔄 Core Features
+## 🔄 Features
 
 ### 👤 Customer
 
-* Browse restaurants
-* Place orders
+* Browse restaurants and menus
+* Place and manage orders
 * Track delivery in real-time
 
 ### 🍽️ Restaurant
 
-* Manage menu
-* Accept/reject orders
+* Manage menu and availability
+* Accept or reject orders
 * Update order status
 
 ### 🚚 Driver
 
 * Accept delivery requests
-* Navigate and deliver orders
+* Navigate to locations
 * Update delivery status
 
 ### 🛠️ Admin
 
 * Manage users and restaurants
 * Handle disputes
-* View reports and analytics
+* Monitor system activity
 
 ---
 
-## ⚡ Key System Capabilities
+## ⚡ Key Highlights
 
 * Real-time order tracking (WebSockets)
-* Driver assignment system
-* Queue-based order processing
-* High-performance caching with Redis
-* Scalable API architecture
+* Queue-based background processing
+* Redis caching for performance
+* Scalable and modular architecture
+* Clean code with DDD principles
 
 ---
 
-## 📊 System Design Overview
+## 📊 System Overview
 
-* Multi-client system (Web + Mobile)
+* Multi-client architecture (Web + Mobile)
 * API-driven backend (Laravel)
-* PostgreSQL for structured data
+* PostgreSQL for relational data
 * Redis for caching and queues
 * Event-driven communication between modules
 
 ---
 
-## 🛠️ Installation (Coming Soon)
+## 🛠️ Installation
 
 ```bash
-git clone https://github.com/dev-ijazulhaq/Food-Ordering-System.git
-cd Food-Ordering-System
+git clone https://github.com/your-username/food-ordering-system.git
+cd food-ordering-system
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -109,27 +111,27 @@ php artisan key:generate
 
 ---
 
-## 📌 Project Goals
+## 🎯 Project Goals
 
-* Build a scalable real-world system
-* Apply advanced backend architecture
-* Practice system design and performance optimization
-* Prepare for senior-level engineering roles
+* Practice real-world system design
+* Build scalable backend architecture
+* Implement high-performance systems
+* Prepare for senior-level development roles
 
 ---
 
 ## 🤖 Future Enhancements
 
 * AI-based restaurant recommendations
-* Smart driver assignment (distance + traffic)
-* Fraud detection system
-* Advanced analytics dashboard
+* Smart driver assignment system
+* Real-time analytics dashboard
+* Microservices architecture (future scaling)
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source.
 
 ---
 
@@ -139,6 +141,6 @@ Developed by Ijaz ul haq
 
 ---
 
-## ⭐ Contribute
+## ⭐ Contribution
 
-Feel free to fork, contribute, and improve this project.
+Contributions are welcome! Feel free to fork and improve the project.
